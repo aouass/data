@@ -23,5 +23,5 @@ class T:
     def _getvaleur(self,N):
         return(sum([self.__h(x) for x in self.__L(N)]))
 
-#r=R()
-# print(r._getvaleur(6))
+r=T()
+print(r._getvaleur(6))
